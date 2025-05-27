@@ -1,6 +1,6 @@
 with
 
-customers as (
+customers as  (
 
     select * from {{ ref('stg_customers') }}
 
